@@ -8,6 +8,12 @@ body{
     background-image: linear-gradient(to right,#ABABAB, #2C2C2C);
 }
 
+@media only screen and (max-width: 600px) {
+    #navbar {
+      background-color: lightblue;
+    }
+  }
+
 #navbar{
     display: flex;
     position: fixed;
